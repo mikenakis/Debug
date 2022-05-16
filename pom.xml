@@ -7,12 +7,8 @@
 	<artifactId>debug</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<dependencies>
-
-		<!-- Yay! No dependencies! -->
-
-	</dependencies>
-
+	<name>mikenakis:debug</name>
+	<description>A tiny (~1 KB) library to help with debugging.</description>
 	<url>https://github.com/mikenakis/Debug</url>
 
 	<licenses>
@@ -28,8 +24,16 @@
 			<email>pom.xml@michael.gr</email>
 			<organization>michael.gr</organization>
 			<organizationUrl>http://michael.gr</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
 		</developer>
 	</developers>
+
+	<scm>
+		<url>https://github.com/mikenakis/Debug.git</url>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,7 +42,9 @@
 	</properties>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+
+		<sourceDirectory>source</sourceDirectory>
+
 		<plugins>
 
 			<plugin>
@@ -137,5 +143,11 @@
 			<url>https://repo.repsy.io/mvn/mikenakis/mikenakis-public</url>
 		</repository>
 	</distributionManagement>
+
+	<dependencies>
+
+		<!-- Yay! No dependencies! -->
+
+	</dependencies>
 
 </project>

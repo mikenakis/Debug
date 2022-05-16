@@ -1,6 +1,6 @@
 # mikenakis:debug
 
-#### A tiny (~1 KB) library for debugging
+#### A tiny (~1 KB) library to help with debugging
 
 <p align="center">
 <img title="mikenakis:debug logo" src="mikenakis-debug-logo.svg" width="256"/><br/>

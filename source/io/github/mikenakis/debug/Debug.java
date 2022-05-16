@@ -1,4 +1,4 @@
-package mikenakis.debug;
+package io.github.mikenakis.debug;
 
 import java.util.function.Supplier;
 
