@@ -131,13 +131,6 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>repsy-mikenakis-public</id>
-			<url>https://repo.repsy.io/mvn/mikenakis/mikenakis-debug</url>
-		</repository>
-	</repositories>
-
 	<distributionManagement>
 		<repository>
 			<id>repsy-mikenakis-public</id>
