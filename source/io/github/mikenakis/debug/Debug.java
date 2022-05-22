@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2022 Michael Belivanakis a.k.a. MikeNakis, michael.gr
+ *
+ * For licensing information, please see README.md.
+ */
 package io.github.mikenakis.debug;
 
 import java.util.function.Supplier;
@@ -5,6 +10,8 @@ import java.util.function.Supplier;
 /**
  * IMPORTANT NOTE: For the methods in this class to work, the debugger must be configured to stop not only on uncaught exceptions, but also on caught exceptions
  * if (and only if) they are caught within this class.
+ *
+ * @author michael.gr
  */
 public final class Debug
 {
