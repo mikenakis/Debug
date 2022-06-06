@@ -129,10 +129,12 @@
 					<!-- PEARL: maven-surefire-plugin file encoding
 								The maven-surefire-plugin for some reason has to be told what the encoding is separately, otherwise tests that contain unicode characters will fail
 								 despite the fact that the project.build.sourceEncoding property has been set to UTF8. See https://stackoverflow.com/a/17671104/773113 -->
+					<encoding>${project.build.sourceEncoding}</encoding>
+					<!-- argLine>-Dfile.encoding=${project.build.sourceEncoding} - -enable-preview</argLine -->
 					<!-- PEARL: maven-surefire-plugin enable preview
-					            The maven-surefire-plugin must be told to enable-preview separately -->
-					<argLine>-Dfile.encoding=${project.build.sourceEncoding} --enable-preview</argLine>
-					<!-- magical incantation needed for the enable-preview option to work, from https://stackoverflow.com/a/69754577/773113 -->
+					            The maven-surefire-plugin must be told to enable-preview separately. -->
+					<argLine>--enable-preview</argLine>
+					<!-- PEARL: additional magical incantations needed for the enable-preview option to work from https://stackoverflow.com/a/69754577/773113 -->
 					<reuseForks>true</reuseForks>
 					<useFile>false</useFile>
 				</configuration>
