@@ -16,7 +16,7 @@ A tiny library (the jar file is under 1 KB) containing a single class with few m
 
 For an explanation as to why this is needed, I am going to do some writeup; until then, see https://stackoverflow.com/q/71115356/773113 to get an idea.
 
-Step-by-step guide to configure the IntelliJ IDEA debugger to take advantage of the functionality of theis module:
+Step-by-step guide to configure the IntelliJ IDEA debugger to take advantage of the functionality of this module:
 
   - Go to "Run" -> "View Breakpoints..."
     - Under "Java Exception Breakpoints":
