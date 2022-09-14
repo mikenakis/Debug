@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 
 /**
  * Utility class to aid debugging.
- *
+ * <p>
  * IMPORTANT NOTE: For the methods in this class to work, the debugger must be configured to stop not only on uncaught exceptions, but also on caught exceptions
  * if (and only if) they are caught within this class. See README.md for instructions.
  *
